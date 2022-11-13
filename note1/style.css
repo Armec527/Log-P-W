@@ -1,0 +1,116 @@
+@import url('font/font.css');
+body{
+
+      background: url(images/illust_78127035_20220718_160144.png) no-repeat;
+ /*background: linear-gradient(sandybrown,royalblue);*/
+      background-size: cover;
+      background-attachment: fixed;
+      /*background-color:#eaf3da ;*/
+      /*backdrop-filter: blur(0px);*/
+                  margin-left: 15%;
+                  margin-right: 15%;
+    /* border: 2px dotted black;*/
+     padding: 10px 10px 10px 10px;
+               font-family: 'Poppins',sans-serif;
+               font-size: 25px;
+   }
+ #girl
+ {
+  position: fixed;
+  top: 25%;
+  margin-left: -10%;
+ }
+  #cxk
+ {
+  position: fixed;
+  top: 25%;
+  margin-left: 70%;
+ }
+   #logout
+   {
+      position: fixed;
+      top: 10%;
+      margin-left: 70%;
+      background: lightyellow;
+      font-size: 30px;
+      text-decoration: none;
+      padding: 6px 15px;
+      color: slategrey;
+      /*外边框圆角*/
+      border-radius: 20px;
+   }
+   header {
+  font-size: 20px;
+  /*position: sticky;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+ /* padding: 30px 100px;*/
+  /*display: flex;*/
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+#dir
+{
+  position: sticky;
+  top: 0;
+  margin-left: -10%;
+}
+s
+{
+  margin-left: 12%;
+}
+ ul {
+  display: inline-flex;
+  margin-left: 10%;
+  /*display: flex;*/
+  /*justify-content: center;
+  align-items: center;
+*/ 
+}
+
+ ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+ul li a {
+  background: lightyellow;
+  text-decoration: none;
+  padding: 6px 15px;
+  color: slategrey;
+  border-radius: 20px;
+}
+
+ ul li a:hover,
+ ul li a.active {
+  background: yellowgreen;
+  color: #2b1055;
+}
+
+header .logo {
+
+  color: slategrey;
+  top: 10%;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 70px;
+  text-transform: uppercase; /* 大写 */
+  letter-spacing: 2px; /* 字符间距 */
+}
+ #out
+ {
+      position: fixed;
+      top: 55%;
+      margin-left: 70%;
+      background: lightyellow;
+      font-size: 30px;
+      text-decoration: none;
+      padding: 6px 15px;
+      color: slategrey;
+      /*外边框圆角*/
+      border-radius: 20px;
+ }
+ h1{color: purple;}
+             
